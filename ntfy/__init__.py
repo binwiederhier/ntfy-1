@@ -3,7 +3,7 @@ from getpass import getuser
 from os import getcwd, path, name
 from socket import gethostname
 from importlib import import_module
-from inspect import getargspec
+from inspect import signature
 from .backends.default import DefaultNotifierError
 
 __version__ = '2.7.1'
